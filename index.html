@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appercut Development</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #1a9de0;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .logo-icon {
+      width: 64px;
+      margin-bottom: 1.25rem;
+      opacity: 0.95;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-family: Georgia, "Times New Roman", serif;
+      margin-bottom: 1.5rem;
+    }
+
+    .divider {
+      width: 48px;
+      height: 2px;
+      background: rgba(255,255,255,0.5);
+      margin: 0 auto 1.5rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.85);
+      max-width: 420px;
+      margin-bottom: 2.5rem;
+    }
+
+    .services {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+
+    .service {
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.7);
+    }
+
+    a.contact {
+      color: #fff;
+      font-size: 0.9rem;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      padding-bottom: 2px;
+      transition: border-color 0.15s;
+    }
+
+    a.contact:hover { border-color: #fff; }
+  </style>
+</head>
+<body>
+
+  <!-- Mountain SVG matching the logo -->
+  <svg class="logo-icon" viewBox="0 0 64 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <polyline points="4,38 22,10 32,24 38,16 60,38" stroke="white" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <polyline points="34,38 44,22 54,38" stroke="white" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </svg>
+
+  <h1>Appercut Development</h1>
+  <div class="divider"></div>
+  <p>We build digital products and provide technology consultancy for businesses that want to move fast and build well.</p>
+
+  <div class="services">
+    <span class="service">Product Development</span>
+    <span class="service">Consultancy</span>
+    <span class="service">Software Engineering</span>
+  </div>
+
+
+</body>
+</html>
