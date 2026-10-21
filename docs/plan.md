@@ -1,6 +1,6 @@
 # Homepage — Plan
 
-Thin and living. See /standards/delivery.md.
+Thin and living.
 
 ## Milestone: keep the live site current
 **Outcome:** appercutdevelopment.com accurately reflects the company's brand and offering.
